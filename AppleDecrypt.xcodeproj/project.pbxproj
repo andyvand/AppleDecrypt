@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32D94FCA0562CBF700B6AF17 /* AppleDecrypt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A224C3FFF42367911CA2CB7 /* AppleDecrypt.cpp */; settings = {ATTRIBUTES = (); }; };
+		ABA42E8D1A0AACA700198281 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		ABE540771A0A8B400090F2E2 /* cc_config.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE5405E1A0A8B400090F2E2 /* cc_config.h */; };
+		ABE540781A0A8B400090F2E2 /* cc_priv.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE5405F1A0A8B400090F2E2 /* cc_priv.h */; };
+		ABE540791A0A8B400090F2E2 /* cc.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE540601A0A8B400090F2E2 /* cc.h */; };
+		ABE5407A1A0A8B400090F2E2 /* ccaes.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE540611A0A8B400090F2E2 /* ccaes.h */; };
+		ABE5407B1A0A8B400090F2E2 /* ccasn1.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE540621A0A8B400090F2E2 /* ccasn1.h */; };
+		ABE5407C1A0A8B400090F2E2 /* ccblowfish.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE540631A0A8B400090F2E2 /* ccblowfish.h */; };
+		ABE5407D1A0A8B400090F2E2 /* ccder.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE540641A0A8B400090F2E2 /* ccder.h */; };
+		ABE5407E1A0A8B400090F2E2 /* ccdes.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE540651A0A8B400090F2E2 /* ccdes.h */; };
+		ABE5407F1A0A8B400090F2E2 /* ccdigest_priv.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE540661A0A8B400090F2E2 /* ccdigest_priv.h */; };
+		ABE540801A0A8B400090F2E2 /* ccdigest.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE540671A0A8B400090F2E2 /* ccdigest.h */; };
+		ABE540811A0A8B400090F2E2 /* ccdrbg_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE540681A0A8B400090F2E2 /* ccdrbg_impl.h */; };
+		ABE540821A0A8B400090F2E2 /* ccdrbg.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE540691A0A8B400090F2E2 /* ccdrbg.h */; };
+		ABE540831A0A8B400090F2E2 /* cchmac.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE5406A1A0A8B400090F2E2 /* cchmac.h */; };
+		ABE540841A0A8B400090F2E2 /* ccmd5.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE5406B1A0A8B400090F2E2 /* ccmd5.h */; };
+		ABE540851A0A8B400090F2E2 /* ccmode_factory.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE5406C1A0A8B400090F2E2 /* ccmode_factory.h */; };
+		ABE540861A0A8B400090F2E2 /* ccmode_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE5406D1A0A8B400090F2E2 /* ccmode_impl.h */; };
+		ABE540871A0A8B400090F2E2 /* ccmode.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE5406E1A0A8B400090F2E2 /* ccmode.h */; };
+		ABE540881A0A8B400090F2E2 /* ccn.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE5406F1A0A8B400090F2E2 /* ccn.h */; };
+		ABE540891A0A8B400090F2E2 /* ccpad.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE540701A0A8B400090F2E2 /* ccpad.h */; };
+		ABE5408A1A0A8B400090F2E2 /* ccpbkdf2.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE540711A0A8B400090F2E2 /* ccpbkdf2.h */; };
+		ABE5408B1A0A8B400090F2E2 /* ccrc4.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE540721A0A8B400090F2E2 /* ccrc4.h */; };
+		ABE5408C1A0A8B400090F2E2 /* ccrng_system.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE540731A0A8B400090F2E2 /* ccrng_system.h */; };
+		ABE5408D1A0A8B400090F2E2 /* ccrng.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE540741A0A8B400090F2E2 /* ccrng.h */; };
+		ABE5408E1A0A8B400090F2E2 /* ccsha1.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE540751A0A8B400090F2E2 /* ccsha1.h */; };
+		ABE5408F1A0A8B400090F2E2 /* ccsha2.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE540761A0A8B400090F2E2 /* ccsha2.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A224C3FFF42367911CA2CB7 /* AppleDecrypt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppleDecrypt.cpp; sourceTree = "<group>"; };
+		32D94FCF0562CBF700B6AF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32D94FD00562CBF700B6AF17 /* AppleDecrypt.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleDecrypt.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA8362C06AD9B9200E5AC22 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = /System/Library/Frameworks/Kernel.framework; sourceTree = "<absolute>"; };
+		ABA42E8E1A0AAFE600198281 /* Signingrules */ = {isa = PBXFileReference; lastKnownFileType = text; path = Signingrules; sourceTree = "<group>"; };
+		ABE5405E1A0A8B400090F2E2 /* cc_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cc_config.h; path = corecrypto/cc_config.h; sourceTree = "<group>"; };
+		ABE5405F1A0A8B400090F2E2 /* cc_priv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cc_priv.h; path = corecrypto/cc_priv.h; sourceTree = "<group>"; };
+		ABE540601A0A8B400090F2E2 /* cc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cc.h; path = corecrypto/cc.h; sourceTree = "<group>"; };
+		ABE540611A0A8B400090F2E2 /* ccaes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccaes.h; path = corecrypto/ccaes.h; sourceTree = "<group>"; };
+		ABE540621A0A8B400090F2E2 /* ccasn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccasn1.h; path = corecrypto/ccasn1.h; sourceTree = "<group>"; };
+		ABE540631A0A8B400090F2E2 /* ccblowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccblowfish.h; path = corecrypto/ccblowfish.h; sourceTree = "<group>"; };
+		ABE540641A0A8B400090F2E2 /* ccder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccder.h; path = corecrypto/ccder.h; sourceTree = "<group>"; };
+		ABE540651A0A8B400090F2E2 /* ccdes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccdes.h; path = corecrypto/ccdes.h; sourceTree = "<group>"; };
+		ABE540661A0A8B400090F2E2 /* ccdigest_priv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccdigest_priv.h; path = corecrypto/ccdigest_priv.h; sourceTree = "<group>"; };
+		ABE540671A0A8B400090F2E2 /* ccdigest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccdigest.h; path = corecrypto/ccdigest.h; sourceTree = "<group>"; };
+		ABE540681A0A8B400090F2E2 /* ccdrbg_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccdrbg_impl.h; path = corecrypto/ccdrbg_impl.h; sourceTree = "<group>"; };
+		ABE540691A0A8B400090F2E2 /* ccdrbg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccdrbg.h; path = corecrypto/ccdrbg.h; sourceTree = "<group>"; };
+		ABE5406A1A0A8B400090F2E2 /* cchmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cchmac.h; path = corecrypto/cchmac.h; sourceTree = "<group>"; };
+		ABE5406B1A0A8B400090F2E2 /* ccmd5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccmd5.h; path = corecrypto/ccmd5.h; sourceTree = "<group>"; };
+		ABE5406C1A0A8B400090F2E2 /* ccmode_factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccmode_factory.h; path = corecrypto/ccmode_factory.h; sourceTree = "<group>"; };
+		ABE5406D1A0A8B400090F2E2 /* ccmode_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccmode_impl.h; path = corecrypto/ccmode_impl.h; sourceTree = "<group>"; };
+		ABE5406E1A0A8B400090F2E2 /* ccmode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccmode.h; path = corecrypto/ccmode.h; sourceTree = "<group>"; };
+		ABE5406F1A0A8B400090F2E2 /* ccn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccn.h; path = corecrypto/ccn.h; sourceTree = "<group>"; };
+		ABE540701A0A8B400090F2E2 /* ccpad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccpad.h; path = corecrypto/ccpad.h; sourceTree = "<group>"; };
+		ABE540711A0A8B400090F2E2 /* ccpbkdf2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccpbkdf2.h; path = corecrypto/ccpbkdf2.h; sourceTree = "<group>"; };
+		ABE540721A0A8B400090F2E2 /* ccrc4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccrc4.h; path = corecrypto/ccrc4.h; sourceTree = "<group>"; };
+		ABE540731A0A8B400090F2E2 /* ccrng_system.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccrng_system.h; path = corecrypto/ccrng_system.h; sourceTree = "<group>"; };
+		ABE540741A0A8B400090F2E2 /* ccrng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccrng.h; path = corecrypto/ccrng.h; sourceTree = "<group>"; };
+		ABE540751A0A8B400090F2E2 /* ccsha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccsha1.h; path = corecrypto/ccsha1.h; sourceTree = "<group>"; };
+		ABE540761A0A8B400090F2E2 /* ccsha2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccsha2.h; path = corecrypto/ccsha2.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32D94FCB0562CBF700B6AF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* AppleDecrypt */ = {
+			isa = PBXGroup;
+			children = (
+				ABE5405D1A0A8B290090F2E2 /* corecrypto */,
+				ABE5405C1A0A8B1D0090F2E2 /* Frameworks */,
+				247142CAFF3F8F9811CA285C /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+			);
+			name = AppleDecrypt;
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABA42E8E1A0AAFE600198281 /* Signingrules */,
+				32D94FCF0562CBF700B6AF17 /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32D94FD00562CBF700B6AF17 /* AppleDecrypt.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		247142CAFF3F8F9811CA285C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1A224C3FFF42367911CA2CB7 /* AppleDecrypt.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		ABE5405C1A0A8B1D0090F2E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DA8362C06AD9B9200E5AC22 /* Kernel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABE5405D1A0A8B290090F2E2 /* corecrypto */ = {
+			isa = PBXGroup;
+			children = (
+				ABE5405E1A0A8B400090F2E2 /* cc_config.h */,
+				ABE5405F1A0A8B400090F2E2 /* cc_priv.h */,
+				ABE540601A0A8B400090F2E2 /* cc.h */,
+				ABE540611A0A8B400090F2E2 /* ccaes.h */,
+				ABE540621A0A8B400090F2E2 /* ccasn1.h */,
+				ABE540631A0A8B400090F2E2 /* ccblowfish.h */,
+				ABE540641A0A8B400090F2E2 /* ccder.h */,
+				ABE540651A0A8B400090F2E2 /* ccdes.h */,
+				ABE540661A0A8B400090F2E2 /* ccdigest_priv.h */,
+				ABE540671A0A8B400090F2E2 /* ccdigest.h */,
+				ABE540681A0A8B400090F2E2 /* ccdrbg_impl.h */,
+				ABE540691A0A8B400090F2E2 /* ccdrbg.h */,
+				ABE5406A1A0A8B400090F2E2 /* cchmac.h */,
+				ABE5406B1A0A8B400090F2E2 /* ccmd5.h */,
+				ABE5406C1A0A8B400090F2E2 /* ccmode_factory.h */,
+				ABE5406D1A0A8B400090F2E2 /* ccmode_impl.h */,
+				ABE5406E1A0A8B400090F2E2 /* ccmode.h */,
+				ABE5406F1A0A8B400090F2E2 /* ccn.h */,
+				ABE540701A0A8B400090F2E2 /* ccpad.h */,
+				ABE540711A0A8B400090F2E2 /* ccpbkdf2.h */,
+				ABE540721A0A8B400090F2E2 /* ccrc4.h */,
+				ABE540731A0A8B400090F2E2 /* ccrng_system.h */,
+				ABE540741A0A8B400090F2E2 /* ccrng.h */,
+				ABE540751A0A8B400090F2E2 /* ccsha1.h */,
+				ABE540761A0A8B400090F2E2 /* ccsha2.h */,
+			);
+			name = corecrypto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32D94FC50562CBF700B6AF17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE5407A1A0A8B400090F2E2 /* ccaes.h in Headers */,
+				ABE540811A0A8B400090F2E2 /* ccdrbg_impl.h in Headers */,
+				ABE540771A0A8B400090F2E2 /* cc_config.h in Headers */,
+				ABE540831A0A8B400090F2E2 /* cchmac.h in Headers */,
+				ABE5407C1A0A8B400090F2E2 /* ccblowfish.h in Headers */,
+				ABE5408D1A0A8B400090F2E2 /* ccrng.h in Headers */,
+				ABE5407F1A0A8B400090F2E2 /* ccdigest_priv.h in Headers */,
+				ABE5407B1A0A8B400090F2E2 /* ccasn1.h in Headers */,
+				ABE540871A0A8B400090F2E2 /* ccmode.h in Headers */,
+				ABE5408E1A0A8B400090F2E2 /* ccsha1.h in Headers */,
+				ABE540851A0A8B400090F2E2 /* ccmode_factory.h in Headers */,
+				ABE5408B1A0A8B400090F2E2 /* ccrc4.h in Headers */,
+				ABE540881A0A8B400090F2E2 /* ccn.h in Headers */,
+				ABE540781A0A8B400090F2E2 /* cc_priv.h in Headers */,
+				ABE5408A1A0A8B400090F2E2 /* ccpbkdf2.h in Headers */,
+				ABE5408C1A0A8B400090F2E2 /* ccrng_system.h in Headers */,
+				ABE540821A0A8B400090F2E2 /* ccdrbg.h in Headers */,
+				ABE5408F1A0A8B400090F2E2 /* ccsha2.h in Headers */,
+				ABE540841A0A8B400090F2E2 /* ccmd5.h in Headers */,
+				ABE540891A0A8B400090F2E2 /* ccpad.h in Headers */,
+				ABE540801A0A8B400090F2E2 /* ccdigest.h in Headers */,
+				ABE5407D1A0A8B400090F2E2 /* ccder.h in Headers */,
+				ABE540791A0A8B400090F2E2 /* cc.h in Headers */,
+				ABE5407E1A0A8B400090F2E2 /* ccdes.h in Headers */,
+				ABE540861A0A8B400090F2E2 /* ccmode_impl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32D94FC30562CBF700B6AF17 /* AppleDecrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91D908733DB10010E9CD /* Build configuration list for PBXNativeTarget "AppleDecrypt" */;
+			buildPhases = (
+				32D94FC50562CBF700B6AF17 /* Headers */,
+				32D94FC70562CBF700B6AF17 /* Resources */,
+				32D94FC90562CBF700B6AF17 /* Sources */,
+				32D94FCB0562CBF700B6AF17 /* Frameworks */,
+				32D94FCC0562CBF700B6AF17 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleDecrypt;
+			productInstallPath = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+			productName = AppleDecrypt;
+			productReference = 32D94FD00562CBF700B6AF17 /* AppleDecrypt.kext */;
+			productType = "com.apple.product-type.kernel-extension.iokit";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 1DEB91DD08733DB10010E9CD /* Build configuration list for PBXProject "AppleDecrypt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* AppleDecrypt */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32D94FC30562CBF700B6AF17 /* AppleDecrypt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32D94FC70562CBF700B6AF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA42E8D1A0AACA700198281 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		32D94FCC0562CBF700B6AF17 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32D94FC90562CBF700B6AF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D94FCA0562CBF700B6AF17 /* AppleDecrypt.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91DA08733DB10010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application: Andy Vandijck";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				CURRENT_PROJECT_VERSION = 3.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.3;
+				DYLIB_CURRENT_VERSION = 3.1.0;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_PREPROCESS = NO;
+				MODULE_NAME = com.AnV.Software.apple.decrypt;
+				MODULE_VERSION = 3.1.0;
+				OTHER_CODE_SIGN_FLAGS = "-r $(PROJECT_DIR)/Signingrules";
+				PRODUCT_NAME = AppleDecrypt;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_BUILDER = "AnV Software";
+				VERSION_INFO_FILE = ADVers.c;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		1DEB91DB08733DB10010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_VARIANTS = normal;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Andy Vandijck";
+				COMBINE_HIDPI_IMAGES = YES;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				CURRENT_PROJECT_VERSION = 3.1.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.3;
+				DYLIB_CURRENT_VERSION = 3.1.0;
+				GCC_CHAR_IS_UNSIGNED_CHAR = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_GROUP = wheel;
+				INSTALL_OWNER = root;
+				MODULE_NAME = com.AnV.Software.apple.decrypt;
+				MODULE_VERSION = 3.1.0;
+				OTHER_CODE_SIGN_FLAGS = "-r $(PROJECT_DIR)/Signingrules";
+				PRODUCT_NAME = AppleDecrypt;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_BUILDER = "AnV Software";
+				VERSION_INFO_FILE = ADVers.c;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+		1DEB91DE08733DB10010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEB91DF08733DB10010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91D908733DB10010E9CD /* Build configuration list for PBXNativeTarget "AppleDecrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91DA08733DB10010E9CD /* Debug */,
+				1DEB91DB08733DB10010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91DD08733DB10010E9CD /* Build configuration list for PBXProject "AppleDecrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91DE08733DB10010E9CD /* Debug */,
+				1DEB91DF08733DB10010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
